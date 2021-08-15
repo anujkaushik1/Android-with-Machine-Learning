@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidwithmachinelearning"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:4:1-60
+11-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:4:18-58
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:5:5-80
+12-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:5-67
+15-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:8:5-27:19
+20        android:allowBackup="true"
+20-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.5.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\da92f13b101f1bad56b469d342bef638\core-1.5.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.AndroidWithMachineLearning" >
+28-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:14:9-64
+29        <activity android:name="machineLearningKit.TextRecognitionActivity" />
+29-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:15:9-88
+29-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:15:19-76
+30        <activity android:name="homeScreen.SplashScreen" />
+30-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:16:9-60
+30-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:16:19-57
+31        <activity android:name="homeScreen.MainActivity" >
+31-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:17:9-23:20
+31-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:17:19-57
+32            <intent-filter>
+32-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:21:17-77
+35-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:24:9-26:35
+40            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+40-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:25:13-70
+41            android:value="ocr" />
+41-->C:\Users\anujk\AndroidStudioProjects\AndroidwithMachineLearning\app\src\main\AndroidManifest.xml:26:13-32
+42
+43        <service
+43-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:9:9-15:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:10:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:11:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:12:13-14:85
+48                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+48-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:13:17-108
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\53eb81f8bffd2008e74e8b5741086ee4\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:14:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\66037e7248aae23beac03fa5853d120a\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:11:13-13:85
+51                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+51-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\66037e7248aae23beac03fa5853d120a\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:12:17-117
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\66037e7248aae23beac03fa5853d120a\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:13:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+54-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\f7b064e124b7b430e3a6568f76ca14c8\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+57                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+57-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\f7b064e124b7b430e3a6568f76ca14c8\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\f7b064e124b7b430e3a6568f76ca14c8\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+59        </service>
+60
+61        <receiver
+61-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+62            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+62-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+63            android:exported="true"
+63-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+64            android:permission="com.google.android.c2dm.permission.SEND" >
+64-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+65            <intent-filter>
+65-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+66                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+66-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+66-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1799ade8b40f6ebd315fca249491ea95\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+67            </intent-filter>
+68        </receiver>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\8aabfb69e3b07eb60d850c0e89b1d2e1\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\8aabfb69e3b07eb60d850c0e89b1d2e1\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\8aabfb69e3b07eb60d850c0e89b1d2e1\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\8aabfb69e3b07eb60d850c0e89b1d2e1\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+77            android:authorities="com.example.androidwithmachinelearning.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:19.3.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\3dd31304fa3897abec167b59287e7e00\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\3dd31304fa3897abec167b59287e7e00\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\anujk\.gradle\caches\transforms-2\files-2.1\3dd31304fa3897abec167b59287e7e00\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>

@@ -1,0 +1,14 @@
+homeScreen/SplashScreen.java
+ homeScreen.SplashScreen
+ homeScreen.SplashScreen$1
+homeScreen/MainActivity.java
+ homeScreen.MainActivity
+ homeScreen.MainActivity$1
+com/example/androidwithmachinelearning/BuildConfig.java
+ com.example.androidwithmachinelearning.BuildConfig
+machineLearningKit/TextRecognitionActivity.java
+ machineLearningKit.TextRecognitionActivity
+ machineLearningKit.TextRecognitionActivity$1
+ machineLearningKit.TextRecognitionActivity$2
+ machineLearningKit.TextRecognitionActivity$3
+ machineLearningKit.TextRecognitionActivity$4
