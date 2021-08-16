@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\anujk\\AndroidStudioProjects\\AndroidwithMachineLearning\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+            "outputFile": "C:\\Users\\anujk\\AndroidStudioProjects\\Android-with-Machine-Learning\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anujk\\.gradle\\caches\\transforms-2\\files-2.1\\cc1fc09f0758faa20c07a482ce4c1f03\\material-1.4.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\anujk\\.gradle\\caches\\transforms-2\\files-2.1\\1d80cc293cb4d913fab93ace3e2ed435\\material-1.4.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

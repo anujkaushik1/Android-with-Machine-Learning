@@ -1739,6 +1739,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable face_detection
 drawable gallery_image_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1751,6 +1752,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable image_ml
+drawable image_ml_facereco
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1951,6 +1953,8 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id faceDetectionImageView
+id face_detection_cardview
 id fade
 id fill
 id fill_horizontal
@@ -1984,6 +1988,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView1
 id info
 id invisible
 id inward
@@ -2183,6 +2188,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2294,7 +2300,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
+layout activity_face_detection
+layout activity_home
 layout activity_splash_screen
 layout activity_text_recognition
 layout custom_dialog

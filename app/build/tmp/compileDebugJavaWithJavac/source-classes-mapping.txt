@@ -1,9 +1,15 @@
+homeScreen/HomeActivity.java
+ homeScreen.HomeActivity
+ homeScreen.HomeActivity$1
+ homeScreen.HomeActivity$2
 homeScreen/SplashScreen.java
  homeScreen.SplashScreen
  homeScreen.SplashScreen$1
-homeScreen/MainActivity.java
- homeScreen.MainActivity
- homeScreen.MainActivity$1
+machineLearningKit/FaceDetectionActivity.java
+ machineLearningKit.FaceDetectionActivity
+ machineLearningKit.FaceDetectionActivity$1
+ machineLearningKit.FaceDetectionActivity$2
+ machineLearningKit.FaceDetectionActivity$3
 com/example/androidwithmachinelearning/BuildConfig.java
  com.example.androidwithmachinelearning.BuildConfig
 machineLearningKit/TextRecognitionActivity.java

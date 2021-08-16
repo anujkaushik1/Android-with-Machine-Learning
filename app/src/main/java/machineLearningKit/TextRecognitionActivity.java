@@ -55,6 +55,7 @@ public class TextRecognitionActivity extends AppCompatActivity {
                 Manifest.permission.CAMERA,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
         };
+        textRecognitionImageView.setVisibility(View.GONE);
         fileManager();
         selectCameraImage();
 
@@ -138,7 +139,7 @@ public class TextRecognitionActivity extends AppCompatActivity {
 
     private void settingImageFileManager(Intent data) {
         if (data != null) {
-            textRecognitionImageView.setImageURI(data.getData());
+            textRecognitionImageView.setImageURI(data.getData());    //set the image in text view
             firebaseTextRecognizer(data.getData());
 
         }
@@ -168,6 +169,7 @@ public class TextRecognitionActivity extends AppCompatActivity {
                         public void onSuccess(FirebaseVisionText result) {
 
                             textRecognitionResultTextView.setText(result.getText());
+                            textRecognitionResultTextView.setVisibility(View.VISIBLE);
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {

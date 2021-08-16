@@ -26,9 +26,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AndroidWithMachineLearning" >
+        <activity android:name="machineLearningKit.FaceDetectionActivity" />
         <activity android:name="machineLearningKit.TextRecognitionActivity" />
         <activity android:name="homeScreen.SplashScreen" />
-        <activity android:name="homeScreen.MainActivity" >
+        <activity android:name="homeScreen.HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,7 +39,7 @@
 
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-            android:value="ocr" />
+            android:value="face" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

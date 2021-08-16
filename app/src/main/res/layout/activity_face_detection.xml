@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="machineLearningKit.TextRecognitionActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/faceDetectionImageView"
+                    android:layout_width="280dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_ml_facereco"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/selectImageGallery"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:text="Select From Gallery"
+                    android:textAllCaps="false"
+                    android:textSize="18dp"
+                    app:icon="@drawable/gallery_image_icon"
+                    app:backgroundTint="@color/newblue"
+                    app:cornerRadius="18dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/faceDetectionImageView"
+                    app:layout_editor_absoluteY="200dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/selectCamera"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Camera"
+                    app:icon="@drawable/camera_icon"
+                    android:textAllCaps="false"
+                    android:textSize="18dp"
+                    app:backgroundTint="@color/newblue"
+                    app:cornerRadius="18dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/selectImageGallery"
+                    app:layout_editor_absoluteY="200dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
